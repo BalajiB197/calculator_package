@@ -2,4 +2,9 @@
 import math
 
 def sin(arg):
-    return f'{math.sin(arg)}'
+    '''returns the sine value'''
+    return math.sin(arg)
+
+def derivative_sin(arg):
+    '''returns the derivative of cosine'''
+    return math.cos(arg)
